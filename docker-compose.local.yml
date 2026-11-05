@@ -1,0 +1,8 @@
+# Local-only override: build the sample applications from source.
+services:
+  user-service:
+    build: ./services/user-service
+  product-service:
+    build: ./services/product-service
+  order-service:
+    build: ./services/order-service

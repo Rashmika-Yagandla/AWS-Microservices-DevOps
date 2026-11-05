@@ -1,0 +1,6 @@
+aws_region       = "ap-south-1"
+project_name     = "microservices-devops"
+instance_type    = "t3.small"
+key_pair_name    = "YOUR_EXISTING_EC2_KEY_PAIR"
+allowed_ssh_cidr = "YOUR_PUBLIC_IP/32"
+root_volume_size = 20

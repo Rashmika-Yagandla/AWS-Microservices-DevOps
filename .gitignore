@@ -1,0 +1,12 @@
+.env
+*.pem
+*.key
+.aws/
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store
